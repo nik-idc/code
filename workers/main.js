@@ -1,21 +1,3 @@
-// const n = document.getElementById("n");
-
-// const myWorker = new Worker("./worker.js");
-
-// onButtonClicked = () => {
-//   myWorker.postMessage(n.value);
-//   console.log("Message posted to worker");
-// };
-
-// // n.onchange = (ev) => {
-// //   myWorker.postMessage(n.value);
-// //   console.log("Message posted to worker");
-// // };
-
-// myWorker.onmessage = (e) => {
-//   console.log("Message received from worker");
-// };
-
 const number1 = document.querySelector("#number1");
 const number2 = document.querySelector("#number2");
 const result = document.querySelector(".result");
