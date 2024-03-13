@@ -1,6 +1,6 @@
-const callbacks = require("./callbacks");
-const promises = require("./promises");
-const paralleljs = require("./parallel");
+const callbacks = require("./src/callbacks");
+const promises = require("./src/promises");
+const paralleljs = require("./src/parallel");
 
 const main = async () => {
   console.log("Callbacks:");
